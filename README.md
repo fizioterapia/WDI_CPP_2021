@@ -1,4 +1,4 @@
-# WDI 2021
+# WDP 2021
 
 Repository with all exercises I did to this moment from subject "Wstęp do Programowania" which I'm attending at my first year in University.
 
