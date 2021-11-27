@@ -13,10 +13,10 @@ int main() {
         bool wypisz = true;
 
         for(int y = 1; y <= i; y++) {
-            if (i % y == 0 && (y != i && y > 1)) {
+            if ((i == 1) || (i % y == 0 && (y != i && y > 1))) {
                 wypisz = false;
                 break;
-            } 
+            }
         }
 
         if (wypisz) cout << i << " ";
